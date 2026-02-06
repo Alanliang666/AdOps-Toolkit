@@ -1,0 +1,10 @@
+# VENV.
+venv/
+
+# Bulid artifacts.
+__pycache__/
+*.pyc
+
+# macOS and Win metadata.
+.DS_Store
+Thumbs.db

@@ -1,0 +1,1 @@
+from .link_validator import check_single_url
