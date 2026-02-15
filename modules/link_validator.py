@@ -21,6 +21,9 @@ def check_single_url(url: str, timeout: int = 5) -> dict:
 			result['is_valid'] = True
 
 	except Exception as e:
+
+		result['status'] = 0
+
 		result["error_msg"] = str(e)
 
 	return result
